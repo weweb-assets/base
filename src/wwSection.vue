@@ -1,5 +1,8 @@
 <template>
-    <wwLayout path="wwObjects" class="section-base"></wwLayout>
+    <div>
+        BASEEEEE
+        <wwLayout path="wwObjects" class="section-base"></wwLayout>
+    </div>
 </template>
 
 <script>
