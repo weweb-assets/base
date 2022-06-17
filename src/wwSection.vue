@@ -15,6 +15,11 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+</style>
+
+<style lang="scss">
+.section-base {
     & > .ww-object {
         width: 100%;
     }
