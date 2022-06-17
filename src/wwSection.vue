@@ -14,6 +14,9 @@ export default {
 .section-base {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
+    & > .ww-object {
+        width: 100%;
+    }
 }
 </style>
