@@ -7,6 +7,12 @@ export default {
     props: {
         content: { type: Object, required: true },
     },
+    renderTracked(event) {
+        console.log('BASE-TRACKED', event);
+    },
+    renderTriggered(event) {
+        console.log('BASE-TRIGGERED', event);
+    },
 };
 </script>
 
