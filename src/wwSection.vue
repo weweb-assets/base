@@ -12,9 +12,8 @@ export default {
 
 <style lang="scss" scoped>
 .section-base {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 </style>
 

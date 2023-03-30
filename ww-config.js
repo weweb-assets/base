@@ -1,13 +1,19 @@
 export default {
-    "editor": {
-        "label": {
-            "fr": "Base",
-            "en": "Base"
+    options: {
+        layout: ['flex'],
+    },
+    inherit: {
+        type: 'ww-layout',
+    },
+    editor: {
+        label: {
+            en: 'Base',
         },
     },
     properties: {
         wwObjects: {
             hidden: true,
-            defaultValue: []
-        }}
-}
+            defaultValue: [],
+        },
+    },
+};
