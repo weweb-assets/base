@@ -16,11 +16,3 @@ export default {
     height: 100%;
 }
 </style>
-
-<style lang="scss">
-.section-base {
-    & > .ww-object {
-        width: 100%;
-    }
-}
-</style>
