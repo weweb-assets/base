@@ -12,16 +12,7 @@ export default {
 
 <style lang="scss" scoped>
 .section-base {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-</style>
-
-<style lang="scss">
-.section-base {
-    & > .ww-object {
-        width: 100%;
-    }
+    width: 100%;
+    height: 100%;
 }
 </style>
