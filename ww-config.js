@@ -1,6 +1,6 @@
 export default {
     options: {
-        layout: ['flex', 'grid'],
+        displayAllowedValues: ['flex', 'block', 'grid'],
     },
     inherit: {
         type: 'ww-layout',
