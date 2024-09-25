@@ -1,10 +1,8 @@
 export default {
     options: {
-        layout: ['flex', 'grid'],
+        displayAllowedValues: ['flex', 'block', 'grid'],
     },
-    inherit: {
-        type: 'ww-layout',
-    },
+    inherit: [{ type: 'ww-layout' }, { type: 'ww-background-video' }],
     editor: {
         label: {
             en: 'Base',
